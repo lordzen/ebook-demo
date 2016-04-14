@@ -1,0 +1,24 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Offline book demo – page 2</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<link rel="stylesheet" href="../style.css">
+<div class="page-controls"></div>
+<script src="../../page.js" async></script>
+<main>
+  <h2>What is this demonstrating?</h2>
+  <ul>
+    <li><strong>Books on the Web can be read offline</strong>—on flights, holidays, trains, etc.
+    <li><strong>No special format; it’s just the Web</strong>—simply a normal set of Web pages; no separate packaging or archiving is needed for offline use
+    <li><strong>No server trickery needed</strong>—publications can be hosted statically
+    <li><strong>No heavy framework required, no render-blocking JavaScript in the way of content</strong>—so it is fast and simple to deploy
+  </ul>
+  <h2>How does this use Service Workers?</h2>
+  <p>
+  This Web publication uses a Service Worker to intercept all network
+  requests for its constituent resources, and to load them from a local
+  cache rather than over the Internet. The end result for you as a user is a
+  seamless reading experience even when you are offline.
+  <p>
+  <a href="../page3/">Continue to page 3</a>
+</main>

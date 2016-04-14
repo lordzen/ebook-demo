@@ -1,1 +1,1 @@
-See https://jakearchibald.github.io/ebook-demo/publisher-site/readme/
+See https://lordzen.github.io/offline-book-demo/readme/

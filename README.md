@@ -1,1 +1,1 @@
-See https://lordzen.github.io/offline-book-demo/readme/
+See https://lordzen.github.io/offline-book-demo/

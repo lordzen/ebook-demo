@@ -23,7 +23,41 @@
 Achieving seamless reading experiences</h1>
 </h1>
 <p>
-Please see the
-<a href="readme/">readme</a>
-that demonstrates how to enable seamless reading experiences of Web
-publications for users even when they are offline.</a>
+For a demonstration of
+<a href=https://lordzen.github.io/books-on-the-web/#seamless>how to enable seamless reading experiences</a>
+of Web publications for users even when they are offline, see the
+following:
+
+<ul>
+<li><a href="readme/">A simple “readme” document</a> that provides
+more details and explains how to view the demo content offline.
+<li><a href="treasure-island/">Robert Louis Stevenson’s <i>Treasure Island</i> as a offline-enabled web book</a>—all
+34 chapters, plus all 115 of Louis Rhead’s illustrations from the 1915
+Harper’s edition of the novel.
+</ul>
+
+<p>
+For each, in browsers that support
+<a
+href=https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers>Service Workers</a>,
+you'll see a checkbox that enables you to continue having a
+<a href=https://lordzen.github.io/books-on-the-web/#seamless>seamless reading experience</a>
+even if the state of your Internet connection changes
+and you drop offline.
+
+<p>
+After you check that box, you’ll see a message saying
+<i>Caching complete! This Web publication is now readable offline.</i>
+(For the <a href="treasure-island/"><i>Treasure Island</i></a> web book, it
+may take a while for the message to appear, depending on the speed of your
+Internet connection—it needs to cache about 109MB of content).
+
+<p>
+But once that <i>…now readable offline</i> message appears, turn off your
+WiFi, remove your Ethernet cable, or put your phone into Airplane Mode, and
+you’ll still be able to continue reading the content, at the same URL—just
+as if you were still online.
+
+<p style="font-size: 80%">
+Credits: These demos are both based on
+<a href=https://jakearchibald.github.io/ebook-demo/publisher-site/readme/>an earlier demo created by Jake Archibald</a>.

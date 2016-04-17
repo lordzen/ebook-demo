@@ -1,0 +1,84 @@
+body { margin:5%; background:#faebd0; text-align:justify}
+P { text-indent: 1em; margin-top: .25em; margin-bottom: .25em; }
+H1,H2,H3,H4,H5,H6 { text-align: center; margin-left: 15%; margin-right: 15%; }
+hr  { width: 50%; text-align: center;}
+.foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
+blockquote {font-size: 97%; font-style: italic; margin-left: 10%; margin-right: 10%;}
+.mynote    {background-color: #DDE; color: #000; padding: .5em; margin-left: 10%; margin-right: 10%; font-family: sans-serif; font-size: 95%;}
+.toc       { margin-left: 10%; margin-bottom: .75em;}
+.toc2      { margin-left: 20%;}
+.indent5   { margin-left: 5%;}
+.indent10  { margin-left: 10%;}
+.indent15  { margin-left: 15%;}
+.indent20  { margin-left: 20%;}
+.indent30  { margin-left: 30%;}
+div.fig    { display:block; margin:0 auto; text-align:center; }
+div.middle { margin-left: 20%; margin-right: 20%; text-align: justify; }
+.figleft   {float: left; margin-left: 0%; margin-right: 1%;}
+.figright  {float: right; margin-right: 0%; margin-left: 1%;}
+.pagenum   {display:inline; font-size: 100%; font-style:normal;
+           margin: 0; padding: 0; position: absolute; right: 1%;
+           text-align: right;}
+.side      { float: left; font-size: 75%; width: 25%; padding-left: 0.8em;
+           border-left: dashed thin; text-align: left;
+           text-indent: 0; font-weight: bold; font-style: italic;
+           font-weight: bold; color: black; background: #eeeeee; border: solid 1px;}
+p.pfirst, p.noindent {text-indent: 0}
+span.dropcap         { float: left; margin: 0 0.1em 0 0; line-height: 1 }
+pre        { font-style: italic; font-size: 100%; margin-left: 10%;}
+
+body {
+  margin-top: 8px;
+  font-family: sans-serif;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: georgia, serif;
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.page-controls {
+  background: #ddd;
+  padding: 10px;
+  min-height: 60px;
+}
+
+li {
+  margin-bottom: 0.8rem;
+}
+
+.status {
+  margin-top: 8px;
+  margin-left: 24px;
+}
+
+.next {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.top {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.next a, .top a {
+  background-color: white;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 4px;
+  padding-left: 6px;
+}
